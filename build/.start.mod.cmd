@@ -1,0 +1,1 @@
+savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/start.mod := printf '%s\n'   start.o | awk '!x[$$0]++ { print("/home/mfennelly/projects/scrap/c/test-kmod/"$$0) }' > /home/mfennelly/projects/scrap/c/test-kmod/start.mod

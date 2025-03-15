@@ -1,0 +1,1 @@
+savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/modules.order := {   echo /home/mfennelly/projects/scrap/c/test-kmod/start.o;   echo /home/mfennelly/projects/scrap/c/test-kmod/stop.o; :; } > /home/mfennelly/projects/scrap/c/test-kmod/modules.order

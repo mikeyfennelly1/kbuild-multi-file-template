@@ -1,0 +1,1 @@
+savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/start.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/mfennelly/projects/scrap/c/test-kmod/start.ko /home/mfennelly/projects/scrap/c/test-kmod/start.o /home/mfennelly/projects/scrap/c/test-kmod/start.mod.o
