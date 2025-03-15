@@ -1,5 +1,7 @@
 #!/bin/bash
 
+build_dir="../build"
+
 function move_files_by_extension() {
     local extension="$1"
     local target_dir="$2"
@@ -13,8 +15,8 @@ function move_files_by_extension() {
 }
 
 # move objs and kernel objs to respective dirs
-move_files_by_extension ".o" "./build/objs"
-move_files_by_extension ".ko" "./build/k_objs"
+move_files_by_extension ".o" "${build_dir}/objs"
+move_files_by_extension ".ko" "${build_dir}/k_objs"
 
 # Remove unnecessary files
 function remove_unnecessary_files() {
