@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/lib/modules/6.8.0-52-generic/build",
+                "/usr/src/linux-hwe-6.8-headers-6.8.0-52/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "kernel dev",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/lib/modules/6.8.0-52-generic/build",
+                "/usr/src/linux-hwe-6.8-headers-6.8.0-52/include",
+                "/lib/modules/6.8.0-52-generic/build/include",
+                "/usr/src/linux-headers-6.8.0-49-generic/include",
+                "/usr/src/linux-headers-6.8.0-51-generic/include",
+                "/usr/src/linux-headers-6.8.0-52-generic/include",
+                "/usr/src/linux-hwe-6.8-headers-6.8.0-49/include",
+                "/usr/src/linux-hwe-6.8-headers-6.8.0-51/include",
+                "/usr/src/linux-hwe-6.8-headers-6.8.0-52/include",
+                "/usr/src/linux-headers-6.8.0-52-generic/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
