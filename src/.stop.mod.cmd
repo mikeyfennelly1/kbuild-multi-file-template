@@ -1,1 +1,0 @@
-savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/src/stop.mod := printf '%s\n'   stop.o | awk '!x[$$0]++ { print("/home/mfennelly/projects/scrap/c/test-kmod/src/"$$0) }' > /home/mfennelly/projects/scrap/c/test-kmod/src/stop.mod
