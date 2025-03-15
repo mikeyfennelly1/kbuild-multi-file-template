@@ -1,0 +1,1 @@
+savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.o := ld -m elf_x86_64 -z noexecstack   -r -o /home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.o @/home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.mod 

@@ -1,0 +1,1 @@
+savedcmd_/home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.ko /home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.o /home/mfennelly/projects/scrap/c/test-kmod/src/sysinfo.mod.o

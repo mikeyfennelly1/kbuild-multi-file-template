@@ -1,4 +1,6 @@
-obj-m += start.o stop.o
+obj-m += sysinfo.o
+
+sysinfo-objs := job.o procfs.o sysinfo_dev.o
 
 PROJ_ROOT:=.. 
 SCRIPTS:=$(PROJ_ROOT)/scripts
